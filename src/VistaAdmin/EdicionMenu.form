@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jpnPatillos" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="jpnEntradas" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jpnPostre" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jpnEnsalada" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jpnBebidas" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="392" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblMenu" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="511" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                      <Component id="btnPublicar" min="-2" pref="111" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="474" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblMenu" min="-2" pref="17" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jpnBebidas" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jpnEnsalada" min="-2" max="-2" attributes="0"/>
+                          <Component id="jpnEntradas" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jpnPatillos" min="-2" max="-2" attributes="0"/>
+                          <Component id="jpnPostre" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnPublicar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblMenu">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MEN&#xda;"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jpnBebidas">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+                          <Component id="lblBebidas" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lblSabor1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblOpcion1" alignment="0" pref="57" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="txtSabor3Op1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op1" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion1" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="txtSabor1Op1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op1" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op1" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op1" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblSabor2" pref="57" max="32767" attributes="0"/>
+                              <Component id="lblOpcion2" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op2" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op2" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor3Op2" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op2" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion2" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor1Op2" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op2" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblSabor3" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblOpcion3" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op3" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op3" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor3Op3" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op3" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion3" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor1Op3" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op3" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblSabor4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblOpcion4" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op4" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op4" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor3Op4" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op4" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion4" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor1Op4" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op4" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblSabor5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblOpcion5" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op5" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op5" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor3Op5" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op5" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion5" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor1Op5" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op5" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lblSabor6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lblOpcion6" alignment="0" min="-2" pref="57" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor3Op6" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor4Op6" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="txtOpcion6" alignment="0" min="-2" pref="172" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor1Op6" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor2Op6" min="-2" pref="82" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="txtSabor5Op6" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="txtSabor6Op6" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblBebidas" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblSabor6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="txtSabor1Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSabor2Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor3Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor4Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtSabor5Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtSabor6Op6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblBebidas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bebidas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion3"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion5">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion5"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor3Op6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor4Op6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor5Op6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor6Op6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion6">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblSabor6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sabores"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Opcion6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor1Op6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSabor2Op6">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnEnsalada">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblOpcionEnsalada4" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtOpcionEnsalada4" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblOpcionEnsalada3" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtOpcionEnsalada3" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblOpcionEnsalada2" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtOpcionEnsalada2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblOpcionEnsalada1" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="txtOpcionEnsalada1" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtEnsalada1" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtEnsalada2" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtEnsalada3" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtEnsalada4" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtEnsalada5" min="-2" pref="80" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtEnsalada6" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                                      <Component id="lblEnsalada" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="lblBarraEnsalada" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="lblBarraEnsalada" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtEnsalada1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnsalada2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnsalada3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtEnsalada4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnsalada5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEnsalada6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="lblEnsalada" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcionEnsalada1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcionEnsalada1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcionEnsalada2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcionEnsalada2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcionEnsalada3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcionEnsalada3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtOpcionEnsalada4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblOpcionEnsalada4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="24" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblEnsalada">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ensalada"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcionEnsalada1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primera opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcionEnsalada1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcionEnsalada2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segunda opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcionEnsalada2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcionEnsalada3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tercera opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcionEnsalada3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblBarraEnsalada">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ingredientes barra de ensalada"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcionEnsalada4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEnsalada6">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcionEnsalada4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cuarta opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnEntradas">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="lblOpcion3E2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lblOpcion2E2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="lblOpcion1E2" alignment="0" min="-2" pref="80" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtOpcion1E2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpcion2E2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpcion3E2" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="lblEntrada1" min="-2" pref="90" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txtEntrada1" min="-2" pref="163" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="lblOpcion3E1" max="32767" attributes="0"/>
+                                                      <Component id="lblOpcion2E1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="lblOpcion1E1" alignment="1" min="-2" pref="80" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtOpcion1E1" max="32767" attributes="0"/>
+                                              <Component id="txtOpcion2E1" max="32767" attributes="0"/>
+                                              <Component id="txtOpcion3E1" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblEntrada2" min="-2" pref="90" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtEntrada2" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                          <Component id="lblEntrada" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="33" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblEntrada" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblEntrada1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEntrada1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion1E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion1E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion2E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion2E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion3E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion3E1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="lblEntrada2" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtEntrada2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion1E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion1E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion2E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion2E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpcion3E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpcion3E2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="txtEntrada1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEntrada1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primera Entrada:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion1E1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primera opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion1E1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEntrada2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segunda Entrada:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion1E2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primera opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion1E2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion2E2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segunda opcion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion2E2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion3E2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tercera opcion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion3E2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion2E1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segunda opcion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion2E1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpcion3E1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tercera opcion:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpcion3E1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblEntrada">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Entradas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtEntrada2">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnPostre">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="146" max="-2" attributes="0"/>
+                          <Component id="lblPostre" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblPostre2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblOpc2Postre2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc1Postre2" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc3Postre2" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPostre2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc1Postre2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc2Postre2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc3Postre2" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblPostre1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblOpc2Postre1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc1Postre1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc3Postre1" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPostre1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc1Postre1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc2Postre1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc3Postre1" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblPostre3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblOpc2Postre3" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc1Postre3" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblOpc3Postre3" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtPostre3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc1Postre3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc2Postre3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtOpc3Postre3" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="35" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblPostre" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPostre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPostre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc1Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc1Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc2Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc2Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc3Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc3Postre1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPostre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPostre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc1Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc1Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc2Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc2Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc3Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc3Postre2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPostre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPostre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc1Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc1Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc2Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc2Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblOpc3Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtOpc3Postre3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="txtOpc1Postre1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc2Postre1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Opci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc2Postre1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc3Postre1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Opcion"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc3Postre1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPostre1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Postre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPostre1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc1Postre1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPostre">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="POSTRES"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc1Postre2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc1Postre2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc2Postre2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Opci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc2Postre2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc3Postre2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Opcion"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc3Postre2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPostre2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segundo Postre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPostre2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc1Postre3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Opci&#xf3;n:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc1Postre3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc2Postre3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Opci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc2Postre3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblOpc3Postre3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Opcion"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtOpc3Postre3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPostre3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tercer Postre"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPostre3">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnPatillos">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblPlato9" alignment="1" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Component id="lblPlato8" alignment="1" min="-2" pref="87" max="-2" attributes="0"/>
+                                      <Component id="lblPlato7" alignment="1" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Component id="lblTPlatillo3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtTPlatillo3" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato7" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato8" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato9" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="lblPlato6" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Component id="lblPlato5" min="-2" pref="87" max="-2" attributes="0"/>
+                                      <Component id="lblPlato4" alignment="1" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <Component id="lblTPlatillo2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtTPlatillo2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato4" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato5" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato6" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="lblTPlatillo1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblPlato2" max="32767" attributes="0"/>
+                                              <Component id="lblPlato1" max="32767" attributes="0"/>
+                                              <Component id="lblPlato3" min="-2" pref="89" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtTPlatillo1" max="32767" attributes="0"/>
+                                      <Component id="txtPlato1" max="32767" attributes="0"/>
+                                      <Component id="txtPlato2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txtPlato3" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="lblPlatillo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                  <Component id="lblPlatillo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTPlatillo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTPlatillo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTPlatillo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTPlatillo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblTPlatillo3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtTPlatillo3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblPlato9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPlato9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTPlatillo1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer tipo de platillo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTPlatillo1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTPlatillo2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Segundo tipo de platillo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTPlatillo2">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato4">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato5">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato6">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Primer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato7">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Segundo Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato8">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlato9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Trecer Platillo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPlato9">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblTPlatillo3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tercer tipo de platillo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTPlatillo3">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblPlatillo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Platillos"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnPublicar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Publicar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancelar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
